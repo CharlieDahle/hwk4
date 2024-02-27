@@ -25,12 +25,6 @@ int main(int argc, char *argv[])
 	setrlimit(RLIMIT_NPROC, &limit);
 	// DO NOT REMOVE THE BLOCK ABOVE THIS LINE //
 
-	// stores user input from commmand line
-
-	// char *line = (char *)malloc(256); // create an empty buffer to store the input
-
-	// reads up to 256 characters into the buffer
-
 	prompt();
 
 	return 0;
